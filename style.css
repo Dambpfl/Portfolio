@@ -161,13 +161,19 @@ body {
 
 .skill-card {
     width: 350px;
-    height: 200px;
+    min-height: 200px;
     padding: 2rem;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.05);
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
+}
+
+.skills-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .skill-card:hover {
