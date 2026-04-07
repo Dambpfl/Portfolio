@@ -196,15 +196,14 @@ body {
 }
 
 .projet-card {
-    height: 530px;
-    width: 350px;
+    min-height: 530px;
+    width: 400px;
     padding: 2rem;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.05);
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
-    text-align: justify;
 }
 
 .projet-card:hover {
@@ -214,7 +213,37 @@ body {
 }
 
 .projet-card p {
-    height: 150px;
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.projet-type {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--darker-bg);
+  padding: 3px 9px;
+  border-radius: 100px;
+}
+
+.stack-tag {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: var(--darker-bg);
+  border: 0.5px solid var(--accent);
+  color: var(--text);
 }
 
 .img-projets {
@@ -243,10 +272,8 @@ body {
 }
 
 .link:hover {
-    font-size: 1.05rem;
     transition: all 0.3s ease;
     color: var(--accent);
-    transform: translateY(-3px);
 }
 
 .contact {
