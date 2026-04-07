@@ -160,7 +160,7 @@ body {
 }
 
 .skill-card {
-    width: 350px;
+    width: 400px;
     min-height: 200px;
     padding: 2rem;
     border-radius: 15px;
@@ -422,6 +422,14 @@ footer {
     .logo {
         font-size: 1.5rem;
         padding-left: 2rem;
+    }
+
+    .projet-card {
+        width: 350px;
+    }
+
+    .skill-card {
+        width: 350px;
     }
 }
 
