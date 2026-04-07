@@ -350,7 +350,6 @@ footer {
 
 .social-links a:hover {
     color: var(--accent);
-    transform: translateY(-3px);
 }
 
 .menu {
